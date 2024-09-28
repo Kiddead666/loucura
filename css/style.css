@@ -1,0 +1,42 @@
+:root,
+:root[data-theme="dark"] {
+    /* --cor-texto-primario: #e0e0e0 */
+    --primary-color: #e0e0e0; /* texto */
+    --primary-bg: #000000; /* bg = background */
+    --hover-menu: #0f0f0f;
+    --icon-color:#1434c2;
+}
+
+:root[data-theme="light"] {
+  --cor-texto-primario: #000;
+  --primary-bg: #fff;
+}
+
+body {
+    background: var(--primary-bg); /* fundo */
+color: var(--primary-color);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--hover-menu);
+}
+
+i{
+    color: var(--icon-color);
+}
+
+*{
+    margin:0 ;
+}
+
+img {
+    width: 10rem;/* largura */
+    height: 10rem; /* altura */
+}
